@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.text {
+    position: absolute;
+    color: aqua;
+    top: 40%;
+    right: 60%;
+    left: 10%;
+    z-index: 6;
+    font-size: 100px;
+}
+
+img {
+    width: 100%;
+}
+
+.fon {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 100vh;
+}
+
+.back {
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 110%;
+    height: 100%;
+}
+
+.back-bg {
+    z-index: 5;
+}
+
+.back1 {
+    z-index: 2;
+}
